@@ -7,5 +7,5 @@ Why couldn’t the React component understand the joke?
 Because it didn’t get the context.
 
 Jūsų paaiškinimas:
-
+REacto componentai naudojant context api gali gauti duomenis ir gauna tik tie kuriems yra panaudojama si funkcija.
 */

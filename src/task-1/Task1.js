@@ -7,10 +7,10 @@ import Header from './Header';
 function Task1() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
+
         <Switch>
-          <Route exact path='/' component={Task1} />
           <Route path='/about' component={About} />
           <Route path='/contacts' component={Contacts} />
         </Switch>
